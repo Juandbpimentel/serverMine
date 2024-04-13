@@ -1,0 +1,15 @@
+{
+	id: "455ec3de-5d37-3432-b19a-10e4977e4ca0"
+	type: "player"
+	player_name: "LivelyGum"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "LivelyGum"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59F1"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

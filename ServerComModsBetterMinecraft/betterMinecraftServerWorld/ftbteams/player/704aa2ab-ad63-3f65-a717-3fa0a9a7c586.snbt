@@ -1,0 +1,15 @@
+{
+	id: "704aa2ab-ad63-3f65-a717-3fa0a9a7c586"
+	type: "player"
+	player_name: "Kinbofox"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Kinbofox"
+		"ftbteams:description": ""
+		"ftbteams:color": "#BDFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,21 @@
+{
+	id: "e81bd926-ff74-49ff-9a09-4f0a3b94032f"
+	type: "party"
+	owner: "704aa2ab-ad63-3f65-a717-3fa0a9a7c586"
+	ranks: {
+		704aa2ab-ad63-3f65-a717-3fa0a9a7c586: "owner"
+		455ec3de-5d37-3432-b19a-10e4977e4ca0: "invited"
+	}
+	properties: {
+		"ftbteams:display_name": "Grupo Dos Brabos"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5B59"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1712969374569L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Kinbofox\"}]}" }
+		{ from: "704aa2ab-ad63-3f65-a717-3fa0a9a7c586", date: 1712969600753L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"LivelyGum\"}]}" }
+	]
+	extra: { }
+}
