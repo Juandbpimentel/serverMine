@@ -12,7 +12,7 @@
 
 		[playerConfig.claims.protection]
 			fromParty = false
-			fromAllyParties = true
+			fromAllyParties = false
 			blocksFromPlayers = 1
 			blocksFromMobs = 1
 			blocksFromOther = 1
@@ -127,9 +127,9 @@
 			offlineForceload = false
 
 	[playerConfig.parties]
-		name = ""
+		name = "TimedoJuan"
 		shareLocationWithParty = true
-		shareLocationWithMutualAllyParties = false
+		shareLocationWithMutualAllyParties = true
 		receiveLocationsFromParty = true
-		receiveLocationsFromMutualAllyParties = false
+		receiveLocationsFromMutualAllyParties = true
 
