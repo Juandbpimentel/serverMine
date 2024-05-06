@@ -43,20 +43,27 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2024-05-05 21:40:51 -0300",
       "woodland": "2024-04-12 18:04:22 -0300",
       "shrubland": "2024-04-13 19:15:01 -0300",
+      "snowblossom_grove": "2024-05-05 21:42:59 -0300",
       "rocky_shrubland": "2024-04-13 19:20:28 -0300",
       "highland": "2024-04-13 22:21:56 -0300",
+      "jade_cliffs": "2024-04-28 19:41:11 -0300",
       "clover_patch": "2024-04-13 22:19:54 -0300",
       "old_growth_woodland": "2024-04-12 19:01:12 -0300",
       "maple_woods": "2024-04-13 22:20:03 -0300",
       "orchard": "2024-04-12 22:09:40 -0300",
       "field": "2024-04-13 22:11:01 -0300",
       "lavender_forest": "2024-04-13 22:25:06 -0300",
+      "coniferous_forest": "2024-04-28 21:30:56 -0300",
       "redwood_forest": "2024-04-12 22:09:31 -0300",
+      "seasonal_forest": "2024-05-05 20:30:14 -0300",
+      "volcanic_plains": "2024-04-28 19:26:53 -0300",
       "lavender_field": "2024-04-13 22:34:11 -0300",
       "grassland": "2024-04-13 21:48:32 -0300",
       "glowing_grotto": "2024-04-13 22:16:30 -0300",
+      "rainforest": "2024-05-05 07:06:53 -0300",
       "ominous_woods": "2024-04-13 22:23:10 -0300"
     },
     "done": false
@@ -288,13 +295,22 @@
       "minecraft:old_growth_pine_taiga": "2024-04-13 22:20:14 -0300",
       "minecraft:taiga": "2024-04-13 22:20:52 -0300",
       "minecraft:deep_ocean": "2024-04-13 21:46:06 -0300",
+      "minecraft:birch_forest": "2024-04-28 19:33:27 -0300",
       "minecraft:beach": "2024-04-12 18:15:44 -0300",
       "minecraft:dark_forest": "2024-04-13 22:19:49 -0300",
       "minecraft:river": "2024-04-12 18:08:11 -0300",
+      "minecraft:lukewarm_ocean": "2024-05-05 07:12:33 -0300",
+      "minecraft:stony_shore": "2024-04-28 19:50:54 -0300",
+      "minecraft:grove": "2024-04-28 21:17:45 -0300",
+      "minecraft:jagged_peaks": "2024-05-05 21:40:44 -0300",
       "minecraft:cold_ocean": "2024-04-13 23:18:06 -0300",
       "minecraft:forest": "2024-04-13 19:01:04 -0300",
+      "minecraft:frozen_ocean": "2024-05-05 21:26:12 -0300",
+      "minecraft:deep_frozen_ocean": "2024-05-05 21:27:49 -0300",
       "minecraft:ocean": "2024-04-13 18:53:24 -0300",
       "minecraft:old_growth_spruce_taiga": "2024-04-13 22:11:58 -0300",
+      "minecraft:old_growth_birch_forest": "2024-04-28 19:33:33 -0300",
+      "minecraft:meadow": "2024-04-28 21:17:50 -0300",
       "minecraft:plains": "2024-04-13 19:10:30 -0300"
     },
     "done": false
@@ -1597,6 +1613,7 @@
       "minecraft:spider": "2024-04-12 19:00:58 -0300",
       "minecraft:creeper": "2024-04-12 23:51:01 -0300",
       "minecraft:phantom": "2024-04-14 12:29:59 -0300",
+      "minecraft:witch": "2024-05-03 01:19:52 -0300",
       "minecraft:silverfish": "2024-04-13 19:05:00 -0300",
       "minecraft:enderman": "2024-04-13 23:53:40 -0300",
       "minecraft:zombie": "2024-04-12 19:19:58 -0300",
@@ -1651,6 +1668,7 @@
     "criteria": {
       "cooked_porkchop": "2024-04-12 23:49:52 -0300",
       "cooked_mutton": "2024-04-12 22:35:26 -0300",
+      "sweet_berries": "2024-05-05 19:48:32 -0300",
       "cooked_beef": "2024-04-13 17:31:53 -0300",
       "baked_potato": "2024-04-14 17:52:17 -0300",
       "apple": "2024-04-13 17:41:27 -0300",
@@ -1659,6 +1677,7 @@
       "rotten_flesh": "2024-04-12 21:59:42 -0300",
       "dried_kelp": "2024-04-14 12:10:26 -0300",
       "beetroot": "2024-04-14 00:37:10 -0300",
+      "cooked_chicken": "2024-04-28 21:23:04 -0300",
       "cod": "2024-04-13 21:37:23 -0300",
       "cooked_salmon": "2024-04-12 19:05:56 -0300",
       "carrot": "2024-04-14 12:04:49 -0300"
@@ -5093,7 +5112,8 @@
   },
   "repurposed_structures:igloos": {
     "criteria": {
-      "in_igloo_grassy": "2024-04-13 19:24:16 -0300"
+      "in_igloo_grassy": "2024-04-13 19:24:16 -0300",
+      "in_igloo_stone": "2024-05-03 02:30:37 -0300"
     },
     "done": false
   },
@@ -6946,6 +6966,7 @@
       "glow_berries": "2024-04-23 16:53:38 -0300",
       "sweet_berries": "2024-04-14 11:57:23 -0300",
       "tomato": "2024-04-14 12:00:20 -0300",
+      "rice": "2024-05-05 07:20:02 -0300",
       "beetroot": "2024-04-14 11:58:45 -0300",
       "brown_mushroom": "2024-04-22 23:25:13 -0300",
       "sugar_cane": "2024-04-14 12:23:08 -0300",
@@ -54351,7 +54372,8 @@
       "minecraft:cow": "2024-04-14 19:55:28 -0300",
       "minecraft:pig": "2024-04-14 19:55:32 -0300",
       "minecraft:sheep": "2024-04-14 17:26:49 -0300",
-      "minecraft:chicken": "2024-04-14 19:39:34 -0300"
+      "minecraft:chicken": "2024-04-14 19:39:34 -0300",
+      "minecraft:wolf": "2024-05-05 20:50:52 -0300"
     },
     "done": false
   },
@@ -54379,21 +54401,159 @@
     },
     "done": true
   },
-  "chipped:recipes/carpenters_table": {
-    "criteria": {
-      "has_carpenters_table": "2024-04-23 13:50:40 -0300"
-    },
-    "done": true
-  },
   "twigs:recipes/tables/cherry_table_slab": {
     "criteria": {
       "has_bamboo": "2024-04-23 12:37:00 -0300"
     },
     "done": true
   },
+  "chipped:recipes/carpenters_table": {
+    "criteria": {
+      "has_carpenters_table": "2024-04-23 13:50:40 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-04-23 13:57:46 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_ropelogged_tomato": {
+    "criteria": {
+      "harvest_ropelogged_tomato": "2024-04-28 19:10:00 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_mossy_cobblestone": {
+    "criteria": {
+      "has_item": "2024-04-28 19:32:32 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-04-28 19:32:32 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-04-28 19:32:32 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/spruce_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-04-28 20:55:10 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-04-28 21:31:00 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2024-05-04 20:24:32 -0300"
+    },
+    "done": true
+  },
+  "chipped:recipes/mason_table": {
+    "criteria": {
+      "has_mason_table": "2024-05-04 22:42:32 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2024-05-04 22:50:05 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "make_portal": "2024-05-04 22:59:35 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "vegetable_soup": "2024-05-04 23:04:05 -0300"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_comfort_food": {
+    "criteria": {
+      "comfort": "2024-05-04 23:04:06 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "twilight_oak_planks": "2024-05-04 23:55:36 -0300",
+      "canopy_chest": "2024-05-04 23:46:03 -0300",
+      "canopy_planks": "2024-05-04 23:43:18 -0300",
+      "canopy_sapling": "2024-05-04 23:05:46 -0300",
+      "twilight_oak_chest": "2024-05-04 23:55:52 -0300",
+      "twilight_oak_log": "2024-05-04 23:20:12 -0300",
+      "canopy_log": "2024-05-04 23:05:43 -0300"
+    },
+    "done": false
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "dwarf_rabbit": "2024-05-04 23:08:29 -0300"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/banana": {
+    "criteria": {
+      "banana": "2024-05-05 07:07:47 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_rice": {
+    "criteria": {
+      "plant_rice": "2024-05-05 07:20:02 -0300"
+    },
+    "done": true
+  },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2024-05-05 18:58:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-05-05 18:58:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-05-05 18:58:00 -0300"
+    },
+    "done": true
+  },
+  "repurposed_structures:city_overworld": {
+    "criteria": {
+      "city_overworld": "2024-05-05 20:30:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-05-05 20:50:32 -0300"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rainbow_jelly": {
+    "criteria": {
+      "gustmaker": "2024-05-05 21:27:06 -0300"
     },
     "done": true
   },

@@ -2540,6 +2540,7 @@
       "minecraft:skeleton": "2024-04-14 17:26:23 -0300",
       "minecraft:ravager": "2024-04-13 22:01:05 -0300",
       "minecraft:spider": "2024-04-12 22:20:15 -0300",
+      "minecraft:enderman": "2024-05-04 22:18:24 -0300",
       "minecraft:zombie": "2024-04-12 22:17:29 -0300"
     },
     "done": false
@@ -5301,45 +5302,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/magenta_sheet": {
-    "criteria": {
-      "has_magenta_sheet": "2024-04-14 21:44:31 -0300"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
-    "criteria": {
-      "has_moss_block": "2024-04-14 21:40:43 -0300"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/breed_an_animal": {
-    "criteria": {
-      "bred": "2024-04-14 21:33:47 -0300"
-    },
-    "done": true
-  },
-  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_moss": {
-    "criteria": {
-      "has_item": "2024-04-14 21:40:43 -0300"
-    },
-    "done": true
-  },
   "supplementaries:recipes/sign_post_oak": {
     "criteria": {
       "has_oak_sign": "2024-04-14 21:14:16 -0300"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/magenta_lamp": {
-    "criteria": {
-      "has_wool": "2024-04-14 21:44:31 -0300"
     },
     "done": true
   },
@@ -5355,51 +5320,9 @@
     },
     "done": true
   },
-  "twigs:recipes/bricks/mossy_bricks_from_moss_block": {
-    "criteria": {
-      "has_item": "2024-04-14 21:40:43 -0300"
-    },
-    "done": true
-  },
-  "comforts:hammock_magenta": {
-    "criteria": {
-      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/food/wheat_dough_from_eggs": {
     "criteria": {
       "has_wheat": "2024-04-14 21:24:53 -0300"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_magenta_dye": {
-    "criteria": {
-      "forge:dyes/magenta": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_magenta": {
-    "criteria": {
-      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_bulb_lantern_magenta": {
-    "criteria": {
-      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_bed": {
-    "criteria": {
-      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_magenta_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-04-14 21:44:25 -0300"
     },
     "done": true
   },
@@ -5409,27 +5332,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2024-04-14 21:40:43 -0300"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/iron_bulb_lantern_magenta": {
-    "criteria": {
-      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2024-04-14 21:24:53 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_candle": {
-    "criteria": {
-      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
     },
     "done": true
   },
@@ -5439,9 +5344,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_banner": {
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
     "criteria": {
-      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
+      "has_wheat": "2024-04-14 21:24:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-04-14 21:33:47 -0300"
     },
     "done": true
   },
@@ -5453,9 +5364,75 @@
     },
     "done": false
   },
-  "another_furniture:recipes/magenta_sofa": {
+  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
     "criteria": {
-      "has_wool": "2024-04-14 21:44:31 -0300"
+      "has_moss_block": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_moss": {
+    "criteria": {
+      "has_item": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/mossy_bricks_from_moss_block": {
+    "criteria": {
+      "has_item": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-04-14 21:40:43 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_magenta_dye": {
+    "criteria": {
+      "forge:dyes/magenta": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_magenta": {
+    "criteria": {
+      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_magenta": {
+    "criteria": {
+      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
     },
     "done": true
   },
@@ -5465,15 +5442,57 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/wheat_dough_from_water": {
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
     "criteria": {
-      "has_wheat": "2024-04-14 21:24:53 -0300"
+      "has_needed_dye": "2024-04-14 21:44:25 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+  "betterend:recipes/misc/hydralux_petal_block_magenta": {
     "criteria": {
-      "has_moss_block": "2024-04-14 21:40:43 -0300"
+      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/magenta_sheet": {
+    "criteria": {
+      "has_magenta_sheet": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/magenta_lamp": {
+    "criteria": {
+      "has_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "comforts:hammock_magenta": {
+    "criteria": {
+      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_magenta": {
+    "criteria": {
+      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_banner": {
+    "criteria": {
+      "has_magenta_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/magenta_sofa": {
+    "criteria": {
+      "has_wool": "2024-04-14 21:44:31 -0300"
     },
     "done": true
   },
@@ -5495,24 +5514,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/hydralux_petal_block_magenta": {
-    "criteria": {
-      "has_magenta_dye": "2024-04-14 21:44:25 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2024-04-14 21:40:43 -0300"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/magenta_cushion": {
     "criteria": {
       "has_magenta_cushion": "2024-04-14 21:44:31 -0300"
@@ -5522,6 +5523,252 @@
   "another_furniture:recipes/magenta_curtain": {
     "criteria": {
       "has_wool": "2024-04-14 21:44:31 -0300"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_quail_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/food/cake": {
+    "criteria": {
+      "has_quail_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/pancake_fd": {
+    "criteria": {
+      "forge:eggs": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_cake": {
+    "criteria": {
+      "has_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_quail_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cake_compat": {
+    "criteria": {
+      "has_item": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2024-04-28 19:52:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/cherry_shutter": {
+    "criteria": {
+      "has_slab": "2024-05-04 21:38:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/cherry_flower_box": {
+    "criteria": {
+      "has_slab": "2024-05-04 21:38:01 -0300"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/diamond]": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "shieldexp:recipes/diamond_shield": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/magic_planks": {
+    "criteria": {
+      "has_logs": "2024-05-04 20:47:27 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "magnumtorch:recipes/decorations/diamond_magnum_torch": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/cherry_banister": {
+    "criteria": {
+      "has_item": "2024-05-04 21:38:01 -0300"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/cutting/ice_sword": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-04 22:17:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/cherry_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-05-04 21:38:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-04 22:17:08 -0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_aeternium_upgrade": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/magic_wood": {
+    "criteria": {
+      "has_log": "2024-05-04 20:47:27 -0300"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_netherite_upgrade": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/cherry_bench": {
+    "criteria": {
+      "has_slab": "2024-05-04 21:38:01 -0300"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/tools/diamond_machete": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_crockery_combo": {
+    "criteria": {
+      "has_wood_crockery_combo": "2024-05-04 21:50:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2024-05-04 22:16:50 -0300"
     },
     "done": true
   },
