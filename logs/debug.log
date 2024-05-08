@@ -16616,3 +16616,615 @@ BCLib - The End  BiomeSource (cb71c33)
 [08May2024 18:07:17.135] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: ftb_teams
 [08May2024 18:07:17.137] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
 [08May2024 18:07:17.140] [Server thread/INFO] [Sawmill/]: Injecting Carpenter Village Houses
+[08May2024 18:07:18.198] [Server thread/INFO] [spark/]: Starting background profiler...
+[08May2024 18:07:18.845] [Server thread/DEBUG] [SpectreLib/CONFIG]: Loading server configs from ./betterMinecraftServerWorld/serverconfig on server
+[08May2024 18:07:18.845] [Server thread/DEBUG] [SpectreLib/CONFIG]: Built TOML config for /home/juandbpimentel/github/serverMine/config/veinmining-server.toml
+[08May2024 18:07:18.846] [Server thread/INFO] [SpectreLib/CONFIG]: Loaded default config values from file at path /home/juandbpimentel/github/serverMine/defaultconfigs/veinmining-server.toml
+[08May2024 18:07:18.846] [Server thread/DEBUG] [SpectreLib/CONFIG]: Loaded TOML config file /home/juandbpimentel/github/serverMine/config/veinmining-server.toml
+[08May2024 18:07:18.847] [Server thread/DEBUG] [SpectreLib/CONFIG]: Built TOML config for /home/juandbpimentel/github/serverMine/config/comforts-server.toml
+[08May2024 18:07:18.847] [Server thread/INFO] [SpectreLib/CONFIG]: Loaded default config values from file at path /home/juandbpimentel/github/serverMine/defaultconfigs/comforts-server.toml
+[08May2024 18:07:18.848] [Server thread/DEBUG] [SpectreLib/CONFIG]: Loaded TOML config file /home/juandbpimentel/github/serverMine/config/comforts-server.toml
+[08May2024 18:07:18.848] [Server thread/DEBUG] [SpectreLib/CONFIG]: Built TOML config for /home/juandbpimentel/github/serverMine/config/charmofundying-server.toml
+[08May2024 18:07:18.849] [Server thread/INFO] [SpectreLib/CONFIG]: Loaded default config values from file at path /home/juandbpimentel/github/serverMine/defaultconfigs/charmofundying-server.toml
+[08May2024 18:07:18.849] [Server thread/DEBUG] [SpectreLib/CONFIG]: Loaded TOML config file /home/juandbpimentel/github/serverMine/config/charmofundying-server.toml
+[08May2024 18:07:18.849] [Server thread/DEBUG] [SpectreLib/CONFIG]: Built TOML config for /home/juandbpimentel/github/serverMine/config/veinmining-common.toml
+[08May2024 18:07:18.850] [Server thread/INFO] [SpectreLib/CONFIG]: Loaded default config values from file at path /home/juandbpimentel/github/serverMine/defaultconfigs/veinmining-common.toml
+[08May2024 18:07:18.850] [Server thread/DEBUG] [SpectreLib/CONFIG]: Loaded TOML config file /home/juandbpimentel/github/serverMine/config/veinmining-common.toml
+[08May2024 18:07:18.875] [Server thread/INFO] [Framework/]: Loading server configs...
+[08May2024 18:07:18.903] [Server thread/DEBUG] [mixin/]: Mixing LevelUtilsMixin from aeroblender.mixins.json into terrablender.util.LevelUtils
+[08May2024 18:07:18.905] [Server thread/DEBUG] [mixin/]: aeroblender.mixins.json:LevelUtilsMixin from mod aeroblender->@Inject::addAether(Lnet/minecraft/core/Holder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:18.909] [Server thread/DEBUG] [mixin/]: Mixing LayeredNoiseUtilMixin from aeroblender.mixins.json into terrablender.worldgen.noise.LayeredNoiseUtil
+[08May2024 18:07:18.909] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$uniqueness$0(JJ)Lterrablender/worldgen/noise/AreaContext; to md6ef549$aeroblender$lambda$uniqueness$0$0 in aeroblender.mixins.json:LayeredNoiseUtilMixin from mod aeroblender
+[08May2024 18:07:18.913] [Server thread/DEBUG] [mixin/]: aeroblender.mixins.json:LayeredNoiseUtilMixin from mod aeroblender->@Inject::uniqueness(Lnet/minecraft/core/RegistryAccess;Lterrablender/api/RegionType;JLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:19.068] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem aether:the_aether
+[08May2024 18:07:20.336] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08May2024 18:07:20.345] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (248d10a9)
+[08May2024 18:07:20.348] [Server thread/DEBUG] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+BCLib - Nether BiomeSource (248d10a9)
+    biomes     = 12
+    namespaces = gardens_of_the_dead(2), biomesoplenty(5), minecraft(5)
+    seed       = 6631663810321243636
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+    --> Map Update
+[08May2024 18:07:20.349] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (cb71c33)
+[08May2024 18:07:20.354] [Server thread/DEBUG] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+BCLib - The End  BiomeSource (cb71c33)
+    biomes     = 26
+    namespaces = betterend(19), minecraft(5), eldritch_end(2)
+    seed       = 6631663810321243636
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+    --> Map Update
+[08May2024 18:07:20.354] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "betterMinecraftServerWorld"
+[08May2024 18:07:20.355] [Server thread/DEBUG] [mixin/]: Mixing feature.branding.BrandingControlMixin from modernfix-forge.mixins.json into net.minecraftforge.internal.BrandingControl
+[08May2024 18:07:20.357] [Server thread/DEBUG] [mixin/]: modernfix-forge.mixins.json:feature.branding.BrandingControlMixin from mod modernfix->@Inject::addModernFixBranding(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/google/common/collect/ImmutableList$Builder;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.365] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for aether:the_aether
+    MultiNoiseBiomeSource (618846ea)
+        biomes     = 16
+        namespaces = aether(4), deep_aether(7), aether_redux(5)
+[08May2024 18:07:20.367] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for blue_skies:everdawn
+    EverdawnBiomeSource (2abd750)
+        biomes     = 11
+        namespaces = blue_skies(11)
+[08May2024 18:07:20.367] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for deeperdarker:otherside
+    MultiNoiseBiomeSource (33636d8e)
+        biomes     = 3
+        namespaces = deeperdarker(3)
+[08May2024 18:07:20.368] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for twilightforest:twilight_forest
+    TFBiomeProvider (1f013b89)
+        biomes     = 21
+        namespaces = twilightforest(21)
+[08May2024 18:07:20.368] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for blue_skies:everbright
+    EverbrightBiomeSource (2ef45e7d)
+        biomes     = 12
+        namespaces = blue_skies(12)
+[08May2024 18:07:20.369] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (248d10a9)
+        biomes     = 12
+        namespaces = gardens_of_the_dead(2), biomesoplenty(5), minecraft(5)
+        seed       = 6631663810321243636
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[08May2024 18:07:20.369] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (cb71c33)
+        biomes     = 26
+        namespaces = betterend(19), minecraft(5), eldritch_end(2)
+        seed       = 6631663810321243636
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[08May2024 18:07:20.409] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:overworld
+    MultiNoiseBiomeSource (76847344)
+        biomes     = 112
+        namespaces = minecraft(53), biomesoplenty(58), quark(1)
+[08May2024 18:07:20.410] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] World Dimensions: 
+ - aether:the_aether: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@5b556144 
+     MultiNoiseBiomeSource (618846ea)
+         biomes     = 16
+         namespaces = aether(4), deep_aether(7), aether_redux(5)
+ - blue_skies:everdawn: 
+     com.legacy.blue_skies.world.everdawn.EverdawnChunkGenerator@3c34bfe2 
+     EverdawnBiomeSource (2abd750)
+         biomes     = 11
+         namespaces = blue_skies(11)
+ - deeperdarker:otherside: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@434c65e7 
+     MultiNoiseBiomeSource (33636d8e)
+         biomes     = 3
+         namespaces = deeperdarker(3)
+ - twilightforest:twilight_forest: 
+     twilightforest.world.components.chunkgenerators.ChunkGeneratorTwilight@6534c24 
+     TFBiomeProvider (1f013b89)
+         biomes     = 21
+         namespaces = twilightforest(21)
+ - blue_skies:everbright: 
+     com.legacy.blue_skies.world.everbright.EverbrightChunkGenerator@e377519 
+     EverbrightBiomeSource (2ef45e7d)
+         biomes     = 12
+         namespaces = blue_skies(12)
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (187cda25) 
+     BCLib - Nether BiomeSource (248d10a9)
+         biomes     = 12
+         namespaces = gardens_of_the_dead(2), biomesoplenty(5), minecraft(5)
+         seed       = 6631663810321243636
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (370a4f25) 
+     BCLib - The End  BiomeSource (cb71c33)
+         biomes     = 26
+         namespaces = betterend(19), minecraft(5), eldritch_end(2)
+         seed       = 6631663810321243636
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+ - minecraft:overworld: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@6818e46b 
+     MultiNoiseBiomeSource (76847344)
+         biomes     = 112
+         namespaces = minecraft(53), biomesoplenty(58), quark(1)
+[08May2024 18:07:20.418] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (cb71c33)
+    biomes     = 26
+    namespaces = betterend(19), minecraft(5), eldritch_end(2)
+    seed       = 6631663810321243636
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[08May2024 18:07:20.424] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[08May2024 18:07:20.434] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[08May2024 18:07:20.438] [Server thread/DEBUG] [mixin/]: Mixing PatrolSpawnerMixin from illagerinvasion.common.mixins.json into net.minecraft.world.level.levelgen.PatrolSpawner
+[08May2024 18:07:20.438] [Server thread/DEBUG] [mixin/]: Mixing PatrolSpawnerAccessor from friendsandfoes-common.mixins.json into net.minecraft.world.level.levelgen.PatrolSpawner
+[08May2024 18:07:20.439] [Server thread/DEBUG] [mixin/]: Mixing PatrolSpawnerMixin from friendsandfoes-common.mixins.json into net.minecraft.world.level.levelgen.PatrolSpawner
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.443] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.444] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.444] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.444] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.444] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.444] [Server thread/DEBUG] [mixin/]: friendsandfoes-common.mixins.json:PatrolSpawnerMixin from mod friendsandfoes->@Inject::friendsandfoes_resetBiomeSpecificIllagerSpawnFlag(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.446] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[08May2024 18:07:20.452] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[08May2024 18:07:20.460] [Server thread/DEBUG] [mixin/]: Mixing RedMerchantSpawnerMixin from supplementaries-common.mixins.json into net.minecraft.world.entity.npc.WanderingTraderSpawner
+[08May2024 18:07:20.461] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$spawn$1(Lnet/minecraft/core/BlockPos;)Z to md6ef549$supplementaries$lambda$spawn$1$0 in supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries
+[08May2024 18:07:20.461] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$spawn$0(Lnet/minecraft/core/Holder;)Z to md6ef549$supplementaries$lambda$spawn$0$1 in supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::tick(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::tick(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::tick(Lnet/minecraft/server/level/ServerLevel;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::spawn(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::spawn(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::spawn(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::spawn(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.472] [Server thread/DEBUG] [mixin/]: supplementaries-common.mixins.json:RedMerchantSpawnerMixin from mod supplementaries->@Inject::spawn(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.482] [Server thread/DEBUG] [mixin/]: Mixing ChunkLoadDebug from cupboard.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.483] [Server thread/DEBUG] [mixin/]: Mixing alloc.chunk_ticking.ServerChunkManagerMixin from lithium.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.483] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.483] [Server thread/DEBUG] [mixin/]: Mixing world.chunk_access.ServerChunkManagerMixin from lithium.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.483] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.484] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getChunkOffThread$0(IILnet/minecraft/world/level/chunk/ChunkStatus;Z)Lnet/minecraft/world/level/chunk/ChunkAccess; to md6ef549$radium$lambda$getChunkOffThread$0$0 in lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium
+[08May2024 18:07:20.489] [Server thread/DEBUG] [mixin/]: Mixing ServerChunkCacheMixin from smoothchunk.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.489] [Server thread/DEBUG] [mixin/]: Mixing bugfix.chunk_deadlock.ServerChunkCacheMixin from modernfix-common.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.489] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$bailIfServerDead$0(IILnet/minecraft/world/level/chunk/ChunkStatus;)Ljava/util/concurrent/CompletableFuture; to md6ef549$modernfix$lambda$bailIfServerDead$0$1 in modernfix-common.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheMixin from mod modernfix
+[08May2024 18:07:20.492] [Server thread/DEBUG] [mixin/]: Mixing bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin from modernfix-forge.mixins.json into net.minecraft.server.level.ServerChunkCache
+[08May2024 18:07:20.506] [Server thread/DEBUG] [mixin/]: cupboard.mixins.json:ChunkLoadDebug from mod cupboard->@Inject::cupboard$logChunkLoading(IILnet/minecraft/world/level/chunk/ChunkStatus;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:20.506] [Server thread/DEBUG] [mixin/]: cupboard.mixins.json:ChunkLoadDebug from mod cupboard->@Inject::cupboard$logChunkLoading(IILnet/minecraft/world/level/chunk/ChunkStatus;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[08May2024 18:07:20.506] [Server thread/DEBUG] [mixin/]: cupboard.mixins.json:ChunkLoadDebug from mod cupboard->@Inject::cupboard$logChunkLoading(IILnet/minecraft/world/level/chunk/ChunkStatus;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin from mod radium->@Inject::preTick(Ljava/util/function/BooleanSupplier;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin from mod radium->@Inject::preTick(Ljava/util/function/BooleanSupplier;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin from mod radium->@Inject::preTick(Ljava/util/function/BooleanSupplier;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::preTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::preTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::preTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::onCachesCleared(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::onCachesCleared(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ServerChunkManagerMixin from mod radium->@Inject::onCachesCleared(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: smoothchunk.mixins.json:ServerChunkCacheMixin from mod smoothchunk->@Inject::onSaveALlChunks(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[08May2024 18:07:20.507] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:bugfix.chunk_deadlock.ServerChunkCacheMixin from mod modernfix->@Inject::bailIfServerDead(IILnet/minecraft/world/level/chunk/ChunkStatus;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.531] [Server thread/DEBUG] [mixin/]: Mixing world.tick_scheduler.ChunkTickSchedulerMixin from lithium.mixins.json into net.minecraft.world.ticks.LevelChunkTicks
+[08May2024 18:07:20.531] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.532] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$queueTick$0(J)Lme/jellysquid/mods/lithium/common/world/scheduler/OrderedTickQueue; to md6ef549$radium$lambda$queueTick$0$0 in lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium
+[08May2024 18:07:20.555] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.555] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.555] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.555] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.556] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.556] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.tick_scheduler.ChunkTickSchedulerMixin from mod radium->@Inject::reinit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.571] [Server thread/DEBUG] [mixin/]: Mixing collections.entity_ticking.EntityListMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntityTickList
+[08May2024 18:07:20.571] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_ticking.EntityListMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.590] [Server thread/DEBUG] [mixin/]: Mixing RegionFileStorageMixin from betterchunkloading.mixins.json into net.minecraft.world.level.chunk.storage.RegionFileStorage
+[08May2024 18:07:20.595] [Server thread/DEBUG] [mixin/]: Mixing chunk.entity_class_groups.ServerEntityManagerAccessor from lithium.mixins.json into net.minecraft.world.level.entity.PersistentEntitySectionManager
+[08May2024 18:07:20.595] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.entity_class_groups.ServerEntityManagerAccessor from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.595] [Server thread/DEBUG] [mixin/]: Mixing util.entity_movement_tracking.ServerEntityManagerAccessor from lithium.mixins.json into net.minecraft.world.level.entity.PersistentEntitySectionManager
+[08May2024 18:07:20.595] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerAccessor from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.596] [Server thread/DEBUG] [mixin/]: Unexpected: Registered method getCache()Lnet/minecraft/world/level/entity/EntitySectionStorage; in net.minecraft.world.level.entity.PersistentEntitySectionManager was not merged
+[08May2024 18:07:20.602] [Server thread/DEBUG] [mixin/]: Mixing entity.inactive_navigations.ServerEntityHandlerMixin from lithium.mixins.json into net.minecraft.server.level.ServerLevel$EntityCallbacks
+[08May2024 18:07:20.602] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:entity.inactive_navigations.ServerEntityHandlerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.603] [Server thread/DEBUG] [mixin/]: Mixing ServerWorldServerEntityHandlerMixin from fabric-lifecycle-events-v1.mixins.json into net.minecraft.server.level.ServerLevel$EntityCallbacks
+[08May2024 18:07:20.606] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:entity.inactive_navigations.ServerEntityHandlerMixin from mod radium->@Inject::inj(Lnet/minecraft/server/level/ServerLevel;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.607] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ServerWorldServerEntityHandlerMixin from mod fabric_lifecycle_events_v1->@Inject::invokeEntityLoadEvent(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.607] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ServerWorldServerEntityHandlerMixin from mod fabric_lifecycle_events_v1->@Inject::invokeEntityUnloadEvent(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.611] [Server thread/DEBUG] [mixin/]: Mixing shared.fastchunkentityaccess.SectionedEntityCacheMixin from krypton.mixins.json into net.minecraft.world.level.entity.EntitySectionStorage
+[08May2024 18:07:20.611] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.fastchunkentityaccess.SectionedEntityCacheMixin from mod krypton: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.613] [Server thread/DEBUG] [mixin/]: Mixing entity.fast_retrieval.SectionedEntityCacheMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntitySectionStorage
+[08May2024 18:07:20.613] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:entity.fast_retrieval.SectionedEntityCacheMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.615] [Server thread/DEBUG] [mixin/]: Mixing util.entity_movement_tracking.SectionedEntityCacheMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntitySectionStorage
+[08May2024 18:07:20.615] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.SectionedEntityCacheMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.616] [Server thread/DEBUG] [mixin/]: Mixing util.entity_section_position.SectionedEntityCacheMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntitySectionStorage
+[08May2024 18:07:20.616] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_section_position.SectionedEntityCacheMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.620] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:entity.fast_retrieval.SectionedEntityCacheMixin from mod radium->@Inject::forEachInBox(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IIIIIII)V does use it's CallbackInfo
+[08May2024 18:07:20.620] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_section_position.SectionedEntityCacheMixin from mod radium->@Inject::rememberPos(JLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.636] [Server thread/DEBUG] [mixin/]: Mixing world.chunk_access.ChunkHolderMixin from lithium.mixins.json into net.minecraft.server.level.ChunkHolder
+[08May2024 18:07:20.636] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_access.ChunkHolderMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.637] [Server thread/DEBUG] [mixin/]: Mixing ChunkHolderMixin from chunksending.mixins.json into net.minecraft.server.level.ChunkHolder
+[08May2024 18:07:20.639] [Server thread/DEBUG] [mixin/]: chunksending.mixins.json:ChunkHolderMixin from mod chunksending->@Inject::chunksending$onBroadCastChanges(Ljava/util/List;Lnet/minecraft/network/protocol/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[08May2024 18:07:20.648] [Server thread/DEBUG] [mixin/]: Mixing DimensionDataStorageMixin from fastasyncworldsave.mixins.json into net.minecraft.world.level.storage.DimensionDataStorage
+[08May2024 18:07:20.648] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$fastasyncworldsave$saveOffthread$1(Ljava/lang/String;Lnet/minecraft/world/level/saveddata/SavedData;)V to md6ef549$fastasyncworldsave$lambda$fastasyncworldsave$saveOffthread$1$0 in fastasyncworldsave.mixins.json:DimensionDataStorageMixin from mod fastasyncworldsave
+[08May2024 18:07:20.648] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$fastasyncworldsave$saveOffthread$0(Lnet/minecraft/world/level/saveddata/SavedData;Ljava/lang/String;Lnet/minecraft/nbt/CompoundTag;)V to md6ef549$fastasyncworldsave$lambda$fastasyncworldsave$saveOffthread$0$1 in fastasyncworldsave.mixins.json:DimensionDataStorageMixin from mod fastasyncworldsave
+[08May2024 18:07:20.652] [Server thread/DEBUG] [mixin/]: Mixing DimensionDataStorageAccessor from structure_gel.mixins.json into net.minecraft.world.level.storage.DimensionDataStorage
+[08May2024 18:07:20.661] [Server thread/DEBUG] [mixin/]: Mixing bugfix.paper_chunk_patches.ChunkMapMixin from modernfix-common.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.662] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$useLegacySchedulingLogic$1(Lnet/minecraft/world/level/chunk/ChunkStatus;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/server/level/ChunkHolder;Lcom/mojang/datafixers/util/Either;)Ljava/util/concurrent/CompletionStage; to md6ef549$modernfix$lambda$useLegacySchedulingLogic$1$0 in modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix
+[08May2024 18:07:20.662] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$useLegacySchedulingLogic$0(Lnet/minecraft/server/level/ChunkHolder;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture; to md6ef549$modernfix$lambda$useLegacySchedulingLogic$0$1 in modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix
+[08May2024 18:07:20.664] [Server thread/DEBUG] [mixin/]: Mixing bugfix.chunk_deadlock.ChunkMapLoadMixin from modernfix-forge.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.665] [Server thread/DEBUG] [mixin/]: Mixing shared.network.avoidwork.ThreadedAnvilChunkStorageMixin from krypton.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.666] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.avoidwork.ThreadedAnvilChunkStorageMixin from mod krypton: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.669] [Server thread/DEBUG] [mixin/]: Mixing shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from krypton.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.669] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.680] [Server thread/DEBUG] [mixin/]: Mixing world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from lithium.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.681] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.686] [Server thread/DEBUG] [mixin/]: Mixing ChunkMapMixin from smoothchunk.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.693] [Server thread/DEBUG] [mixin/]: Mixing accessor.ThreadedAnvilChunkStorageAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.693] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.694] [Server thread/DEBUG] [mixin/]: Mixing ThreadedAnvilChunkStorageMixin from fabric-lifecycle-events-v1.mixins.json into net.minecraft.server.level.ChunkMap
+[08May2024 18:07:20.709] [Server thread/WARN] [mixin/]: Method overwrite conflict for m_140184_ in lithium.mixins.json:world.player_chunk_tick.ThreadedAnvilChunkStorageMixin from mod radium, previously written by me.steinborn.krypton.mixin.shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin. Skipping method.
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:bugfix.paper_chunk_patches.ChunkMapMixin from mod modernfix->@Inject::useLegacySchedulingLogic(Lnet/minecraft/server/level/ChunkHolder;Lnet/minecraft/world/level/chunk/ChunkStatus;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.avoidwork.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::sendChunkDataPackets$beSmart(Lnet/minecraft/server/level/ServerPlayer;Lorg/apache/commons/lang3/mutable/MutableObject;Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.avoidwork.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::sendChunkDataPackets$beSmart(Lnet/minecraft/server/level/ServerPlayer;Lorg/apache/commons/lang3/mutable/MutableObject;Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.avoidwork.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::sendChunkDataPackets$beSmart(Lnet/minecraft/server/level/ServerPlayer;Lorg/apache/commons/lang3/mutable/MutableObject;Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::disableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::disableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::disableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::enableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::enableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.718] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.flushconsolidation.ThreadedAnvilChunkStorageMixin from mod krypton->@Inject::enableAutoFlushForEntityTracking(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.719] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1->@Inject::onChunkUnload(Lnet/minecraft/server/level/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/level/chunk/ChunkAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.719] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1->@Inject::onChunkUnload(Lnet/minecraft/server/level/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/level/chunk/ChunkAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.719] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1->@Inject::onChunkUnload(Lnet/minecraft/server/level/ChunkHolder;Ljava/util/concurrent/CompletableFuture;JLnet/minecraft/world/level/chunk/ChunkAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.719] [Server thread/DEBUG] [mixin/]: fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1->@Inject::onChunkLoad(Lnet/minecraft/server/level/ChunkHolder;Lnet/minecraft/world/level/chunk/ChunkAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.720] [Server thread/DEBUG] [mixin/]: Unexpected: Registered method m_140184_(Lnet/minecraft/server/level/ServerPlayer;)V in net.minecraft.server.level.ChunkMap was not merged
+[08May2024 18:07:20.746] [Server thread/DEBUG] [mixin/]: Mixing DistanceManagerMixin from betterchunkloading.mixins.json into net.minecraft.server.level.DistanceManager
+[08May2024 18:07:20.762] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:DistanceManagerMixin from mod betterchunkloading->@Inject::onAddPlayerToChunkSection(Lnet/minecraft/core/SectionPos;Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[08May2024 18:07:20.762] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:DistanceManagerMixin from mod betterchunkloading->@Inject::onRemovePlayerFromChunkSection(Lnet/minecraft/core/SectionPos;Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.762] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:DistanceManagerMixin from mod betterchunkloading->@Inject::onRemovePlayerFromChunkSection(Lnet/minecraft/core/SectionPos;Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.762] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:DistanceManagerMixin from mod betterchunkloading->@Inject::onRemovePlayerFromChunkSection(Lnet/minecraft/core/SectionPos;Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:20.762] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:DistanceManagerMixin from mod betterchunkloading->@Inject::betterchunkloading$skipRemovePlayer(Lnet/minecraft/core/SectionPos;Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[08May2024 18:07:20.955] [Server thread/DEBUG] [mixin/]: Mixing MultiNoiseUtilMultiNoiseSamplerMixin from fabric-biome-api-v1.mixins.json into net.minecraft.world.level.biome.Climate$Sampler
+[08May2024 18:07:20.956] [Server thread/DEBUG] [mixin/]: fabric-biome-api-v1.mixins.json:MultiNoiseUtilMultiNoiseSamplerMixin from mod fabric_biome_api_v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:20.971] [Server thread/DEBUG] [mixin/]: Mixing perf.cache_strongholds.ChunkGeneratorMixin from modernfix-common.mixins.json into net.minecraft.world.level.chunk.ChunkGeneratorStructureState
+[08May2024 18:07:20.971] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$saveCachedData$0(Ljava/util/List;)Ljava/util/List; to md6ef549$modernfix$lambda$saveCachedData$0$0 in modernfix-common.mixins.json:perf.cache_strongholds.ChunkGeneratorMixin from mod modernfix
+[08May2024 18:07:20.973] [Server thread/DEBUG] [mixin/]: Mixing accessor.ChunkGeneratorStructureStateAccessor from betterjungletemples.mixins.json into net.minecraft.world.level.chunk.ChunkGeneratorStructureState
+[08May2024 18:07:20.975] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.cache_strongholds.ChunkGeneratorMixin from mod modernfix->@Inject::useCachedDataIfAvailable(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.975] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.cache_strongholds.ChunkGeneratorMixin from mod modernfix->@Inject::saveCachedData(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.975] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.cache_strongholds.ChunkGeneratorMixin from mod modernfix->@Inject::saveCachedData(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:20.985] [Server thread/DEBUG] [mixin/]: Mixing ChunkTaskPriorityQueueSorterMixin from betterchunkloading.mixins.json into net.minecraft.server.level.ChunkTaskPriorityQueueSorter
+[08May2024 18:07:20.988] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:ChunkTaskPriorityQueueSorterMixin from mod betterchunkloading->@Inject::lagebegone$polltask(Lnet/minecraft/server/level/ChunkTaskPriorityQueue;Lnet/minecraft/util/thread/ProcessorHandle;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:20.988] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:ChunkTaskPriorityQueueSorterMixin from mod betterchunkloading->@Inject::lagebegone$polltask(Lnet/minecraft/server/level/ChunkTaskPriorityQueue;Lnet/minecraft/util/thread/ProcessorHandle;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:20.988] [Server thread/DEBUG] [mixin/]: betterchunkloading.mixins.json:ChunkTaskPriorityQueueSorterMixin from mod betterchunkloading->@Inject::lagebegone$polltask(Lnet/minecraft/server/level/ChunkTaskPriorityQueue;Lnet/minecraft/util/thread/ProcessorHandle;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.013] [Server thread/DEBUG] [mixin/]: Mixing LayerLightSectionStorageMixin from bclib.mixins.common.json into net.minecraft.world.level.lighting.LayerLightSectionStorage
+[08May2024 18:07:21.015] [Server thread/DEBUG] [mixin/]: bclib.mixins.common.json:LayerLightSectionStorageMixin from mod bclib->@Inject::bclib_lightFix(JLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:21.033] [Server thread/DEBUG] [mixin/]: Mixing chunk.no_validation.PackedIntegerArrayMixin from lithium.mixins.json into net.minecraft.util.SimpleBitStorage
+[08May2024 18:07:21.033] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_validation.PackedIntegerArrayMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.033] [Server thread/DEBUG] [mixin/]: Mixing chunk.serialization.PackedIntegerArrayMixin from lithium.mixins.json into net.minecraft.util.SimpleBitStorage
+[08May2024 18:07:21.033] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.serialization.PackedIntegerArrayMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.053] [Server thread/DEBUG] [mixin/]: Mixing PlayerTicketTrackerMixin from betterchunkloading.mixins.json into net.minecraft.server.level.DistanceManager$PlayerTicketTracker
+[08May2024 18:07:21.064] [Server thread/DEBUG] [mixin/]: Mixing ai.poi.PointOfInterestStorageMixin from lithium.mixins.json into net.minecraft.world.entity.ai.village.poi.PoiManager
+[08May2024 18:07:21.064] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.065] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$withinSphereChunkSectionSorted$6(Lnet/minecraft/core/BlockPos;DLjava/util/ArrayList;Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;)V to md6ef549$radium$lambda$withinSphereChunkSectionSorted$6$0 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.065] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$withinSphereChunkSectionSortedStream$5(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;Lnet/minecraft/core/BlockPos;DLjava/util/stream/Stream;)Ljava/util/stream/Stream; to md6ef549$radium$lambda$withinSphereChunkSectionSortedStream$5$1 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.065] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$withinSphereChunkSectionSortedStream$4(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;Lnet/minecraft/core/BlockPos;DLnet/minecraft/world/entity/ai/village/poi/PoiSection;)Ljava/util/stream/Stream; to md6ef549$radium$lambda$withinSphereChunkSectionSortedStream$4$2 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.065] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$withinSphereChunkSectionSortedStream$3(Lnet/minecraft/core/BlockPos;DLnet/minecraft/world/entity/ai/village/poi/PoiRecord;)Z to md6ef549$radium$lambda$withinSphereChunkSectionSortedStream$3$3 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.065] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$findNearestForPortalLogic$2(Lnet/minecraft/world/level/border/WorldBorder;Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;)Z to md6ef549$radium$lambda$findNearestForPortalLogic$2$4 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.066] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getNearestPosition$1(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;)Z to md6ef549$radium$lambda$getNearestPosition$1$5 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.066] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getInChunk$0(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;Lnet/minecraft/world/entity/ai/village/poi/PoiSection;)Ljava/util/stream/Stream; to md6ef549$radium$lambda$getInChunk$0$6 in lithium.mixins.json:ai.poi.PointOfInterestStorageMixin from mod radium
+[08May2024 18:07:21.070] [Server thread/DEBUG] [mixin/]: Mixing ai.poi.fast_portals.PointOfInterestStorageMixin from lithium.mixins.json into net.minecraft.world.entity.ai.village.poi.PoiManager
+[08May2024 18:07:21.070] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.fast_portals.PointOfInterestStorageMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.081] [Server thread/DEBUG] [mixin/]: Mixing ai.poi.SerializingRegionBasedStorageMixin from lithium.mixins.json into net.minecraft.world.level.chunk.storage.SectionStorage
+[08May2024 18:07:21.081] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.SerializingRegionBasedStorageMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.082] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getInChunkColumn$0(Ljava/util/BitSet;Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;ILnet/minecraft/world/level/LevelHeightAccessor;I)Ljava/util/Iterator; to md6ef549$radium$lambda$getInChunkColumn$0$0 in lithium.mixins.json:ai.poi.SerializingRegionBasedStorageMixin from mod radium
+[08May2024 18:07:21.088] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.SerializingRegionBasedStorageMixin from mod radium->@Inject::init(Ljava/nio/file/Path;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/util/datafix/DataFixTypes;ZLnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/LevelHeightAccessor;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.088] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.SerializingRegionBasedStorageMixin from mod radium->@Inject::init(Ljava/nio/file/Path;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/util/datafix/DataFixTypes;ZLnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/LevelHeightAccessor;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:21.088] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.SerializingRegionBasedStorageMixin from mod radium->@Inject::init(Ljava/nio/file/Path;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/util/datafix/DataFixTypes;ZLnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/LevelHeightAccessor;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.094] [Server thread/DEBUG] [mixin/]: Mixing ai.poi.PointOfInterestSetMixin from lithium.mixins.json into net.minecraft.world.entity.ai.village.poi.PoiSection
+[08May2024 18:07:21.095] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.PointOfInterestSetMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.095] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$computeIfAbsent$0(Ljava/lang/Object;)Ljava/lang/Object; to md6ef549$radium$lambda$computeIfAbsent$0$0 in lithium.mixins.json:ai.poi.PointOfInterestSetMixin from mod radium
+[08May2024 18:07:21.100] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.PointOfInterestSetMixin from mod radium->@Inject::reinit(Ljava/lang/Runnable;ZLjava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.100] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.PointOfInterestSetMixin from mod radium->@Inject::reinit(Ljava/lang/Runnable;ZLjava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:21.100] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.PointOfInterestSetMixin from mod radium->@Inject::reinit(Ljava/lang/Runnable;ZLjava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.115] [Server thread/DEBUG] [mixin/]: Mixing ai.poi.fast_portals.PortalForcerMixin from lithium.mixins.json into net.minecraft.world.level.portal.PortalForcer
+[08May2024 18:07:21.116] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:ai.poi.fast_portals.PortalForcerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.116] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getPortalRect$2(Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;)Lnet/minecraft/BlockUtil$FoundRectangle; to md6ef549$radium$lambda$getPortalRect$2$0 in lithium.mixins.json:ai.poi.fast_portals.PortalForcerMixin from mod radium
+[08May2024 18:07:21.116] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getPortalRect$1(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)Z to md6ef549$radium$lambda$getPortalRect$1$1 in lithium.mixins.json:ai.poi.fast_portals.PortalForcerMixin from mod radium
+[08May2024 18:07:21.116] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$getPortalRect$0(Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;)Z to md6ef549$radium$lambda$getPortalRect$0$2 in lithium.mixins.json:ai.poi.fast_portals.PortalForcerMixin from mod radium
+[08May2024 18:07:21.178] [Server thread/DEBUG] [ModernFix/]: Loaded stronghold cache for dimension minecraft:overworld with 128 positions
+[08May2024 18:07:21.200] [Server thread/DEBUG] [mixin/]: Mixing common.event.DimensionHooksMixin from aether_redux.mixins.json into com.aetherteam.aether.event.hooks.DimensionHooks
+[08May2024 18:07:21.202] [Server thread/DEBUG] [mixin/]: aether_redux.mixins.json:common.event.DimensionHooksMixin from mod aether_redux->@Inject::fall(Lnet/minecraft/world/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:21.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08May2024 18:07:21.343] [Server thread/DEBUG] [mixin/]: Mixing bugfix.paper_chunk_patches.SortedArraySetMixin from modernfix-common.mixins.json into net.minecraft.util.SortedArraySet
+[08May2024 18:07:21.344] [Server thread/DEBUG] [mixin/]: Mixing world.chunk_tickets.SortedArraySetMixin from lithium.mixins.json into net.minecraft.util.SortedArraySet
+[08May2024 18:07:21.345] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.347] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[08May2024 18:07:21.347] [Server thread/DEBUG] [mixin/]: Unexpected: Registered method removeIf(Ljava/util/function/Predicate;)Z in net.minecraft.util.SortedArraySet was not merged
+[08May2024 18:07:21.584] [Server thread/DEBUG] [mixin/]: Mixing ChunkSerializerMixin from leavesbegone.common.mixins.json into net.minecraft.world.level.chunk.storage.ChunkSerializer
+[08May2024 18:07:21.584] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$leavesbegone$write$1(Lnet/minecraft/world/level/block/Block;)Ljava/lang/String; to md6ef549$leavesbegone$lambda$leavesbegone$write$1$0 in leavesbegone.common.mixins.json:ChunkSerializerMixin from mod leavesbegone
+[08May2024 18:07:21.584] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$leavesbegone$read$0(Ljava/lang/String;)Ljava/util/Optional; to md6ef549$leavesbegone$lambda$leavesbegone$read$0$1 in leavesbegone.common.mixins.json:ChunkSerializerMixin from mod leavesbegone
+[08May2024 18:07:21.585] [Server thread/DEBUG] [mixin/]: Mixing ChunkSerializerMixin from fabric-registry-sync-v0.mixins.json into net.minecraft.world.level.chunk.storage.ChunkSerializer
+[08May2024 18:07:21.586] [Server thread/DEBUG] [mixin/]: fabric-registry-sync-v0.mixins.json:ChunkSerializerMixin from mod fabric_registry_sync_v0: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.586] [Server thread/DEBUG] [mixin/]: Mixing MixinChunkSerializer from architectury.mixins.json into net.minecraft.world.level.chunk.storage.ChunkSerializer
+[08May2024 18:07:21.659] [Server thread/DEBUG] [mixin/]: leavesbegone.common.mixins.json:ChunkSerializerMixin from mod leavesbegone->@Inject::leavesbegone$write(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:21.659] [Server thread/DEBUG] [mixin/]: architectury.mixins.json:MixinChunkSerializer from mod architectury->@Inject::read(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/ai/village/poi/PoiManager;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[08May2024 18:07:21.673] [Server thread/DEBUG] [mixin/]: Mixing chunk.palette.PalettedContainerMixin from lithium.mixins.json into net.minecraft.world.level.chunk.PalettedContainer$Strategy
+[08May2024 18:07:21.673] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.palette.PalettedContainerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.682] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/level/chunk/PalettedContainer$Strategy$Anonymous$28d8b2b4ffb647c991e0a266205ce3f0 (originally me/jellysquid/mods/lithium/mixin/chunk/palette/PalettedContainerMixin$1)
+[08May2024 18:07:21.685] [Server thread/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/level/chunk/PalettedContainer$Strategy$Anonymous$210b1a8266c74f2d94787a98c573b023 (originally me/jellysquid/mods/lithium/mixin/chunk/palette/PalettedContainerMixin$2)
+[08May2024 18:07:21.695] [Server thread/DEBUG] [mixin/]: Mixing perf.compact_bit_storage.PalettedContainerMixin from modernfix-common.mixins.json into net.minecraft.world.level.chunk.PalettedContainer
+[08May2024 18:07:21.697] [Server thread/DEBUG] [mixin/]: Mixing chunk.no_locking.PalettedContainerMixin from lithium.mixins.json into net.minecraft.world.level.chunk.PalettedContainer
+[08May2024 18:07:21.697] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.698] [Server thread/DEBUG] [mixin/]: Mixing chunk.serialization.PalettedContainerMixin from lithium.mixins.json into net.minecraft.world.level.chunk.PalettedContainer
+[08May2024 18:07:21.698] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.serialization.PalettedContainerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:21.699] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$count$2([SI)V to md6ef549$radium$lambda$count$2$0 in lithium.mixins.json:chunk.serialization.PalettedContainerMixin from mod radium
+[08May2024 18:07:21.699] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$static$1()[S to md6ef549$radium$lambda$static$1$1 in lithium.mixins.json:chunk.serialization.PalettedContainerMixin from mod radium
+[08May2024 18:07:21.699] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0()[S to md6ef549$radium$lambda$static$0$2 in lithium.mixins.json:chunk.serialization.PalettedContainerMixin from mod radium
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.compact_bit_storage.PalettedContainerMixin from mod modernfix->@Inject::validateData(Lnet/minecraft/network/FriendlyByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;I)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.compact_bit_storage.PalettedContainerMixin from mod modernfix->@Inject::validateData(Lnet/minecraft/network/FriendlyByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;I)V has 0 override(s) in child classes
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: modernfix-common.mixins.json:perf.compact_bit_storage.PalettedContainerMixin from mod modernfix->@Inject::validateData(Lnet/minecraft/network/FriendlyByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;I)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_locking.PalettedContainerMixin from mod radium->@Inject::removeLockHelper(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:21.707] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.serialization.PalettedContainerMixin from mod radium->@Inject::count(Lnet/minecraft/world/level/chunk/PalettedContainer$CountConsumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[08May2024 18:07:21.738] [Server thread/DEBUG] [mixin/]: Mixing ThreadingDetectorMixin from cupboard.mixins.json into net.minecraft.util.ThreadingDetector
+[08May2024 18:07:21.770] [Worker-Main-2/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[08May2024 18:07:21.773] [Server thread/DEBUG] [mixin/]: Mixing chunk.no_validation.EmptyPaletteStorageMixin from lithium.mixins.json into net.minecraft.util.ZeroBitStorage
+[08May2024 18:07:21.773] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.no_validation.EmptyPaletteStorageMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:22.259] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:slime_cave
+[08May2024 18:07:22.431] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:wild_ruin/wild_ruin_19
+[08May2024 18:07:22.436] [Server thread/DEBUG] [mixin/]: Mixing structures.JigsawJunctionAccessor from repurposed_structures-common.mixins.json into net.minecraft.world.level.levelgen.structure.pools.JigsawJunction
+[08May2024 18:07:22.440] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of nova_structures:wild_ruin/wild_ruin_19b
+[08May2024 18:07:22.959] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:large_logs
+[08May2024 18:07:22.966] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:large_oak_tree
+[08May2024 18:07:23.003] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:forgotten_well
+[08May2024 18:07:23.270] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/rooms/large_hall
+[08May2024 18:07:23.276] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/dead_ends/normal
+[08May2024 18:07:23.278] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/rooms/bedroom
+[08May2024 18:07:23.282] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/rooms/enchanting
+[08May2024 18:07:23.285] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/walkways/lava
+[08May2024 18:07:23.287] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/walkways/broken
+[08May2024 18:07:23.288] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/dead_ends/chest
+[08May2024 18:07:23.290] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/walkways/iron_bars
+[08May2024 18:07:23.291] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/shafts/dead_end
+[08May2024 18:07:23.294] [Server thread/DEBUG] [ModernFix/]: Using cached upgraded version of explorations:underground_temple/shafts/large
+[08May2024 18:07:23.595] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:23.596] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:23.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:23.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:23.598] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:23.847] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08May2024 18:07:24.109] [Server thread/DEBUG] [mixin/]: Mixing world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin from lithium.mixins.json into net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity
+[08May2024 18:07:24.109] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.113] [Server thread/DEBUG] [mixin/]: Mixing WorldChunkMixin$DirectBlockEntityTickInvokerMixin from neruina-common.mixins.json into net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity
+[08May2024 18:07:24.139] [Server thread/DEBUG] [mixin/]: Mixing shared.fastchunkentityaccess.EntityTrackingSectionAccessor from krypton.mixins.json into net.minecraft.world.level.entity.EntitySection
+[08May2024 18:07:24.139] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.fastchunkentityaccess.EntityTrackingSectionAccessor from mod krypton: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.139] [Server thread/DEBUG] [mixin/]: Mixing block.hopper.EntityTrackingSectionAccessor from lithium.mixins.json into net.minecraft.world.level.entity.EntitySection
+[08May2024 18:07:24.139] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:block.hopper.EntityTrackingSectionAccessor from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.140] [Server thread/DEBUG] [mixin/]: Mixing chunk.entity_class_groups.EntityTrackingSectionAccessor from lithium.mixins.json into net.minecraft.world.level.entity.EntitySection
+[08May2024 18:07:24.140] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.entity_class_groups.EntityTrackingSectionAccessor from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.140] [Server thread/DEBUG] [mixin/]: Mixing util.entity_movement_tracking.EntityTrackingSectionMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntitySection
+[08May2024 18:07:24.140] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.EntityTrackingSectionMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.144] [Server thread/DEBUG] [mixin/]: Mixing util.entity_section_position.EntityTrackingSectionMixin from lithium.mixins.json into net.minecraft.world.level.entity.EntitySection
+[08May2024 18:07:24.144] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_section_position.EntityTrackingSectionMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:24.149] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.EntityTrackingSectionMixin from mod radium->@Inject::isEmpty(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:24.150] [Server thread/DEBUG] [mixin/]: Unexpected: Registered method getCollection()Lnet/minecraft/util/ClassInstanceMultiMap; in net.minecraft.world.level.entity.EntitySection was not merged
+[08May2024 18:07:24.150] [Server thread/DEBUG] [mixin/]: Unexpected: Registered method getCollection()Lnet/minecraft/util/ClassInstanceMultiMap; in net.minecraft.world.level.entity.EntitySection was not merged
+[08May2024 18:07:24.281] [Server thread/DEBUG] [mixin/]: Mixing LimbAnimatorAccessor from friendsandfoes-common.mixins.json into net.minecraft.world.entity.WalkAnimationState
+[08May2024 18:07:24.618] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3277 ms
+[08May2024 18:07:24.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.453s)! For help, type "help"
+[08May2024 18:07:24.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
+[08May2024 18:07:24.640] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
+[08May2024 18:07:24.640] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:25565
+[08May2024 18:07:24.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[08May2024 18:07:24.645] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[08May2024 18:07:24.645] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:25575
+[08May2024 18:07:24.646] [Server thread/DEBUG] [mixin/]: Mixing ServerWatchdogMixin from fullstackwatchdog-common.mixins.json into net.minecraft.server.dedicated.ServerWatchdog
+[08May2024 18:07:24.665] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[08May2024 18:07:24.781] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 26887
+[08May2024 18:07:24.789] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08May2024 18:07:24.790] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[08May2024 18:07:24.808] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 17ms
+[08May2024 18:07:24.808] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "prometheus" isn't registered!
+[08May2024 18:07:24.809] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[08May2024 18:07:24.809] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "argonauts_guilds" isn't registered!
+[08May2024 18:07:24.809] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[08May2024 18:07:24.814] [Server thread/INFO] [xaero.common.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[08May2024 18:07:24.818] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[08May2024 18:07:24.822] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[08May2024 18:07:24.824] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[08May2024 18:07:24.824] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[08May2024 18:07:24.825] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[08May2024 18:07:24.825] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[08May2024 18:07:24.825] [Server thread/INFO] [net.stardustlabs.structorytowers.StructoryTowers/]: Thanks for choosing StructoryTowers!
+[08May2024 18:07:24.825] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
+[08May2024 18:07:24.832] [Server thread/INFO] [FTB Quests/]: Loading quests from /home/juandbpimentel/github/serverMine/config/ftbquests/quests
+[08May2024 18:07:24.888] [Server thread/DEBUG] [FTB Quests/]: Updated loot crates (was 0, now 0)
+[08May2024 18:07:24.892] [Server thread/INFO] [FTB Quests/]: Loaded 3 chapter groups, 11 chapters, 94 quests, 1 reward tables
+[08May2024 18:07:24.922] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: farsight.json
+[08May2024 18:07:24.923] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[08May2024 18:07:24.924] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[08May2024 18:07:24.926] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[08May2024 18:07:24.928] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[08May2024 18:07:24.929] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[08May2024 18:07:24.930] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomemusic.json
+[08May2024 18:07:24.937] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[08May2024 18:07:24.943] [Server thread/WARN] [ModernFix/]: Dedicated server took 108.463 seconds to load
+[08May2024 18:07:25.088] [Server thread/DEBUG] [mixin/]: Mixing StatusDataMixin from bcc.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[08May2024 18:07:25.088] [Server thread/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[08May2024 18:07:25.090] [Server thread/DEBUG] [mixin/]: mixins/common/nochatreports.mixins.json:common.MixinServerStatus from mod nochatreports->@Inject::onSecureChatCheck(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[08May2024 18:07:25.162] [Server thread/DEBUG] [mixin/]: Mixing ArmorTrimMixin from quark.mixins.json into net.minecraft.world.item.armortrim.ArmorTrim
+[08May2024 18:07:25.163] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ArmorTrimMixin from mod quark->@Inject::appendRuneText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/RegistryAccess;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.486] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[08May2024 18:07:26.545] [Server thread/DEBUG] [mixin/]: Mixing chunk.entity_class_groups.TypeFilterableListMixin from lithium.mixins.json into net.minecraft.util.ClassInstanceMultiMap
+[08May2024 18:07:26.545] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:chunk.entity_class_groups.TypeFilterableListMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.551] [Server thread/DEBUG] [mixin/]: Mixing collections.entity_by_type.TypeFilterableListMixin from lithium.mixins.json into net.minecraft.util.ClassInstanceMultiMap
+[08May2024 18:07:26.552] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_by_type.TypeFilterableListMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.552] [Server thread/DEBUG] [mixin/]: Mixing collections.entity_filtering.TypeFilterableListMixin from lithium.mixins.json into net.minecraft.util.ClassInstanceMultiMap
+[08May2024 18:07:26.552] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_filtering.TypeFilterableListMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.553] [Server thread/DEBUG] [mixin/]: Mixing block.hopper.TypeFilterableListMixin from lithium.mixins.json into net.minecraft.util.ClassInstanceMultiMap
+[08May2024 18:07:26.553] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:block.hopper.TypeFilterableListMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.557] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_by_type.TypeFilterableListMixin from mod radium->@Inject::init(Ljava/lang/Class;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.557] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_by_type.TypeFilterableListMixin from mod radium->@Inject::init(Ljava/lang/Class;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.557] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:collections.entity_by_type.TypeFilterableListMixin from mod radium->@Inject::init(Ljava/lang/Class;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.562] [Server thread/DEBUG] [mixin/]: Mixing util.entity_movement_tracking.ServerEntityManagerListenerMixin from lithium.mixins.json into net.minecraft.world.level.entity.PersistentEntitySectionManager$Callback
+[08May2024 18:07:26.563] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::init(Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;Lnet/minecraft/world/level/entity/EntityAccess;JLnet/minecraft/world/level/entity/EntitySection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::init(Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;Lnet/minecraft/world/level/entity/EntityAccess;JLnet/minecraft/world/level/entity/EntitySection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::init(Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;Lnet/minecraft/world/level/entity/EntityAccess;JLnet/minecraft/world/level/entity/EntitySection;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::updateEntityTrackerEngine(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::updateEntityTrackerEngine(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::updateEntityTrackerEngine(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onAddEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/core/BlockPos;JLnet/minecraft/world/level/entity/Visibility;Lnet/minecraft/world/level/entity/EntitySection;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onAddEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/core/BlockPos;JLnet/minecraft/world/level/entity/Visibility;Lnet/minecraft/world/level/entity/EntitySection;)V has 0 override(s) in child classes
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onAddEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/core/BlockPos;JLnet/minecraft/world/level/entity/Visibility;Lnet/minecraft/world/level/entity/EntitySection;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onRemoveEntity(Lnet/minecraft/world/entity/Entity$RemovalReason;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onRemoveEntity(Lnet/minecraft/world/entity/Entity$RemovalReason;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.565] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:util.entity_movement_tracking.ServerEntityManagerListenerMixin from mod radium->@Inject::onRemoveEntity(Lnet/minecraft/world/entity/Entity$RemovalReason;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.569] [Server thread/DEBUG] [mixin/]: Mixing alloc.entity_tracker.EntityTrackerMixin from lithium.mixins.json into net.minecraft.server.level.ChunkMap$TrackedEntity
+[08May2024 18:07:26.569] [Server thread/DEBUG] [mixin/]: lithium.mixins.json:alloc.entity_tracker.EntityTrackerMixin from mod radium: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.569] [Server thread/DEBUG] [mixin/]: Mixing accessor.EntityTrackerAccessor from fabric-networking-api-v1.mixins.json into net.minecraft.server.level.ChunkMap$TrackedEntity
+[08May2024 18:07:26.569] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor from mod fabric_networking_api_v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.572] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming m_8543_ with desc ()V
+[08May2024 18:07:26.572] [Server thread/DEBUG] [mixin/]: Mixing shared.network.microopt.EntityTrackerEntryMixin from krypton.mixins.json into net.minecraft.server.level.ServerEntity
+[08May2024 18:07:26.573] [Server thread/DEBUG] [mixin/]: krypton.mixins.json:shared.network.microopt.EntityTrackerEntryMixin from mod krypton: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.573] [Server thread/DEBUG] [mixin/]: Mixing EntityTrackerEntryMixin from fabric-networking-api-v1.mixins.json into net.minecraft.server.level.ServerEntity
+[08May2024 18:07:26.573] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[08May2024 18:07:26.574] [Server thread/DEBUG] [mixin/]: Mixing ServerEntityMixin from quark.mixins.json into net.minecraft.server.level.ServerEntity
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStartTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStartTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStartTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStopTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStopTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: fabric-networking-api-v1.mixins.json:EntityTrackerEntryMixin from mod fabric_networking_api_v1->@Inject::onStopTracking(Lnet/minecraft/server/level/ServerPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::updateTridentData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::updateTridentData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.576] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::updateTridentData(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.577] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::pairTridentData(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[08May2024 18:07:26.577] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::pairTridentData(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[08May2024 18:07:26.577] [Server thread/DEBUG] [mixin/]: quark.mixins.json:ServerEntityMixin from mod quark->@Inject::pairTridentData(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[08May2024 18:07:26.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08May2024 18:07:26.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08May2024 18:07:26.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08May2024 18:07:26.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08May2024 18:07:26.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08May2024 18:07:27.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/minecraft:overworld
+[08May2024 18:07:28.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/aether:the_aether
+[08May2024 18:07:28.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/blue_skies:everdawn
+[08May2024 18:07:28.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/deeperdarker:otherside
+[08May2024 18:07:28.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/twilightforest:twilight_forest
+[08May2024 18:07:28.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/blue_skies:everbright
+[08May2024 18:07:28.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/minecraft:the_nether
+[08May2024 18:07:28.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[betterMinecraftServerWorld]'/minecraft:the_end
+[08May2024 18:07:28.693] [Server thread/DEBUG] [FabricRegistrySync/]: Starting registry save
+[08May2024 18:07:28.693] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:command_argument_type
+[08May2024 18:07:28.693] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: aether:moa_type
+[08May2024 18:07:28.693] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:item
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_entity_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:custom_stat
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/foliage_placer_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:stat_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_rule
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:attribute
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:position_source_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:height_provider_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_block_entity_modifier
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/density_function_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:fluid
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:global_loot_modifier_serializers
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_condition_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_pool_element
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:activity
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_serializer
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:frog_variant
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:banner_pattern
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:tiny_bird_variant
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:instrument
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:decorated_pot_patterns
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature_size_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:point_of_interest_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:mob_effect
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_pool_entry_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/block_state_provider_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/chunk_generator
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:float_provider_type
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:chunk_status
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:enchantment
+[08May2024 18:07:28.694] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_function_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_processor
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_score_provider_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/tree_decorator_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:schedule
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/material_condition
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:entity_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_profession
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:potion
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:recipe_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:int_provider_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/feature
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:cat_variant
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:pos_rule_test
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_placement
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_nbt_provider_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: worlds_together:worldgen/betterx/biome_codec
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:menu
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/trunk_placer_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:creative_mode_tab
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/placement_modifier_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/carver
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:loot_number_provider_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/structure_piece
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sound_event
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:particle_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:game_event
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/biome_source
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:worldgen/root_placer_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:villager_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:painting_variant
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:fluid_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block_predicate_type
+[08May2024 18:07:28.695] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:block
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: forge:entity_data_serializers
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:sensor_type
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: twilightforest:dwarf_rabbit_variant
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:rule_test
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving registry: minecraft:memory_module_type
+[08May2024 18:07:28.696] [Server thread/DEBUG] [FabricRegistrySync/]: Not saving empty registry data
+[08May2024 18:07:28.701] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save betterMinecraftServerWorld
+[08May2024 18:07:28.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete betterMinecraftServerWorld
+[08May2024 18:07:28.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (betterMinecraftServerWorld): All chunks are saved
+[08May2024 18:07:28.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[08May2024 18:07:28.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
+[08May2024 18:07:28.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[08May2024 18:07:28.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[08May2024 18:07:28.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
+[08May2024 18:07:28.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08May2024 18:07:28.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08May2024 18:07:28.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08May2024 18:07:28.965] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[08May2024 18:07:28.965] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
+[08May2024 18:07:28.966] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving claims!
+[08May2024 18:07:28.966] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[08May2024 18:07:28.976] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[08May2024 18:07:28.976] [Server thread/DEBUG] [SpectreLib/CONFIG]: Unloading server configs
+[08May2024 18:07:28.980] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08May2024 18:07:28.982] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked-server.toml
+[08May2024 18:07:28.982] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[08May2024 18:07:28.989] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
+[08May2024 18:07:29.149] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener stopped
