@@ -54501,6 +54501,8 @@
       "canopy_sapling": "2024-05-05 02:05:46 +0000",
       "twilight_oak_chest": "2024-05-05 02:55:52 +0000",
       "twilight_oak_log": "2024-05-05 02:20:12 +0000",
+      "liveroot": "2024-05-07 23:42:22 +0000",
+      "twilight_oak_sapling": "2024-05-08 00:23:32 +0000",
       "canopy_log": "2024-05-05 02:05:43 +0000"
     },
     "done": false
@@ -54556,6 +54558,66 @@
   "alexsmobs:alexsmobs/rainbow_jelly": {
     "criteria": {
       "gustmaker": "2024-05-06 00:27:06 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:hill1": {
+    "criteria": {
+      "redcap": "2024-05-08 00:20:33 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2024-05-08 00:35:08 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "naga": "2024-05-08 00:35:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/birch_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-05-08 00:40:54 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "plateau": "2024-05-08 00:58:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-05-08 01:04:42 +0000"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-05-08 01:10:42 +0000"
+    },
+    "done": true
+  },
+  "deep_aether:explore_aether": {
+    "criteria": {
+      "aether:skyroot_grove": "2024-05-08 01:10:42 +0000"
+    },
+    "done": false
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-05-08 01:10:42 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2024-05-08 01:13:48 +0000"
     },
     "done": true
   },

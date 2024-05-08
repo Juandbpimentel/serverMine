@@ -2,9 +2,7 @@
 	id: "c7e43bc3-9fec-311b-aeef-1ee875a96c76"
 	type: "player"
 	player_name: "Ruanzaum"
-	ranks: {
-		c7e43bc3-9fec-311b-aeef-1ee875a96c76: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Ruanzaum"
 		"ftbteams:description": ""
