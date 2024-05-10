@@ -54665,21 +54665,27 @@
     },
     "done": true
   },
-  "nova_structures:adventure/find_tavern": {
-    "criteria": {
-      "nova_structures:tavern_oak": "2024-05-09 04:20:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:nether/obtain_crying_obsidian": {
     "criteria": {
       "crying_obsidian": "2024-05-09 04:18:04 +0000"
     },
     "done": true
   },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2024-05-09 04:20:19 +0000"
+    },
+    "done": true
+  },
   "nova_structures:root": {
     "criteria": {
       "nova_structures:adventure/find_tavern": "2024-05-09 04:20:19 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2024-05-09 04:49:44 +0000"
     },
     "done": true
   },
@@ -54694,12 +54700,6 @@
       "in_better_spider_dungeon": "2024-05-09 05:05:26 +0000"
     },
     "done": false
-  },
-  "blue_skies:get_moonstone_shard": {
-    "criteria": {
-      "obtain_moonstone_shard": "2024-05-09 04:49:44 +0000"
-    },
-    "done": true
   },
   "betterdungeons:spider_dungeon": {
     "criteria": {
