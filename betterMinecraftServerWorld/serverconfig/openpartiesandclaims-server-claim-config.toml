@@ -135,11 +135,11 @@
 			#When enabled, claimed chunk protection includes protection from village raids. It stops raiders from spawning inside the protected chunks, from entering them and from hurting protectable entities, even if entity protection is turned off.
 			raids = true
 			#When enabled, claimed chunk protection includes players being protected from player attacks.
-			playersFromPlayers = false
+			playersFromPlayers = true
 			#When enabled, claimed chunk protection includes players being protected from mob attacks.
-			playersFromMobs = false
+			playersFromMobs = true
 			#When enabled, claimed chunk protection includes players being protected against non-living entities.
-			playersFromOther = false
+			playersFromOther = true
 			#When enabled, instead of always simply using the direct "Protect Players From Mobs/Other" option for entity attacks/iteractions coming from non-player entities, if the attacking entity (e.g. an arrow) has an owner (e.g. a player), then the entity protection option corresponding to the owner is used (e.g. "Protect Players From Players").
 			playersRedirect = true
 			#When enabled, claimed chunk protection includes blocks and entities being protected against lightning directly caused by players who don't have access to the chunks (e.g. with the trident). Chunks directly next to the protected chunks are also partially protected.
@@ -240,7 +240,7 @@
 			#By default, all "mob griefing" game rule checks, except for evokers (sheep conversion spell) and for most item pickups, are overridden with the block protection option. By default, the game rule is not overridden for item pickups (e.g. piglins picking up gold) because the basic item protection is already enough for most cases. When using the Forge version of the mod, this can be used for modded mobs. The main server config can be used to change which options are checked (even all 3) for specific mobs. Fabric/Quilt does not fire an event for all mob griefing rule checks. Fabric/Quilt modded mobs would simply check the game rule directly, which cannot be overridden by this mod.
 			overrideMobGriefingRule = true
 			#When enabled, claimed chunk protection disables the natural spawning of hostile mobs.
-			naturalSpawnHostile = false
+			naturalSpawnHostile = true
 			#When enabled, claimed chunk protection disables the natural spawning of friendly mobs.
 			naturalSpawnFriendly = false
 			#When enabled, claimed chunk protection disables hostile mob spawners.

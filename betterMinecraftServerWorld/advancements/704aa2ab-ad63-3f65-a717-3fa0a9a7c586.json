@@ -1637,6 +1637,7 @@
       "minecraft:vindicator": "2024-04-13 22:15:24 +0000",
       "minecraft:spider": "2024-04-12 22:00:58 +0000",
       "minecraft:creeper": "2024-04-13 02:51:01 +0000",
+      "minecraft:slime": "2024-05-10 13:19:42 +0000",
       "minecraft:phantom": "2024-04-14 15:29:59 +0000",
       "minecraft:witch": "2024-05-03 04:19:52 +0000",
       "minecraft:cave_spider": "2024-05-09 04:30:00 +0000",
@@ -54525,11 +54526,14 @@
       "canopy_chest": "2024-05-05 02:46:03 +0000",
       "canopy_planks": "2024-05-05 02:43:18 +0000",
       "canopy_sapling": "2024-05-05 02:05:46 +0000",
+      "root": "2024-05-10 12:33:42 +0000",
       "twilight_oak_chest": "2024-05-05 02:55:52 +0000",
       "twilight_oak_log": "2024-05-05 02:20:12 +0000",
+      "twilight_oak_wood": "2024-05-10 12:29:51 +0000",
       "liveroot": "2024-05-07 23:42:22 +0000",
       "twilight_oak_sapling": "2024-05-08 00:23:32 +0000",
-      "canopy_log": "2024-05-05 02:05:43 +0000"
+      "canopy_log": "2024-05-05 02:05:43 +0000",
+      "twilight_oak_leaves": "2024-05-10 12:30:08 +0000"
     },
     "done": false
   },
@@ -54704,6 +54708,24 @@
   "betterdungeons:spider_dungeon": {
     "criteria": {
       "in_better_spider_dungeon": "2024-05-09 05:05:26 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everdawn": "2024-05-10 08:30:43 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everdawn": "2024-05-10 08:30:43 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2024-05-10 08:30:43 +0000"
     },
     "done": true
   },
