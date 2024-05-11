@@ -54523,6 +54523,7 @@
   "twilightforest:arborist": {
     "criteria": {
       "twilight_oak_planks": "2024-05-05 02:55:36 +0000",
+      "twilight_oak_sign": "2024-05-10 16:13:08 +0000",
       "canopy_chest": "2024-05-05 02:46:03 +0000",
       "canopy_planks": "2024-05-05 02:43:18 +0000",
       "canopy_sapling": "2024-05-05 02:05:46 +0000",
@@ -54726,6 +54727,12 @@
   "blue_skies:everdawn/enter": {
     "criteria": {
       "enter_everdawn": "2024-05-10 08:30:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-05-10 19:35:02 +0000"
     },
     "done": true
   },
