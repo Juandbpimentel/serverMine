@@ -326,6 +326,7 @@
       "minecraft:snowy_plains": "2024-05-09 02:48:22 +0000",
       "minecraft:snowy_taiga": "2024-05-09 02:48:10 +0000",
       "minecraft:grove": "2024-04-29 00:17:45 +0000",
+      "minecraft:swamp": "2024-05-11 21:37:46 +0000",
       "minecraft:jagged_peaks": "2024-05-06 00:40:44 +0000",
       "minecraft:cold_ocean": "2024-04-14 02:18:06 +0000",
       "minecraft:forest": "2024-04-13 22:01:04 +0000",
@@ -334,6 +335,7 @@
       "minecraft:deep_frozen_ocean": "2024-05-06 00:27:49 +0000",
       "minecraft:ocean": "2024-04-13 21:53:24 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-04-14 01:11:58 +0000",
+      "minecraft:snowy_beach": "2024-05-11 21:15:12 +0000",
       "minecraft:old_growth_birch_forest": "2024-04-28 22:33:33 +0000",
       "minecraft:meadow": "2024-04-29 00:17:50 +0000",
       "minecraft:plains": "2024-04-13 22:10:30 +0000"
@@ -1640,9 +1642,11 @@
       "minecraft:slime": "2024-05-10 13:19:42 +0000",
       "minecraft:phantom": "2024-04-14 15:29:59 +0000",
       "minecraft:witch": "2024-05-03 04:19:52 +0000",
+      "minecraft:shulker": "2024-05-12 01:30:41 +0000",
       "minecraft:cave_spider": "2024-05-09 04:30:00 +0000",
       "minecraft:silverfish": "2024-04-13 22:05:00 +0000",
       "minecraft:enderman": "2024-04-14 02:53:40 +0000",
+      "minecraft:endermite": "2024-05-12 01:51:06 +0000",
       "minecraft:zombie": "2024-04-12 22:19:58 +0000",
       "minecraft:drowned": "2024-04-12 21:37:52 +0000",
       "minecraft:zombie_villager": "2024-04-14 02:16:49 +0000"
@@ -54600,9 +54604,10 @@
   },
   "twilightforest:progress_lich": {
     "criteria": {
+      "shield_scepter": "2024-05-11 20:26:03 +0000",
       "kill_naga": "2024-05-08 00:35:08 +0000"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:progress_naga": {
     "criteria": {
@@ -54660,6 +54665,7 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
+      "in_pyramid_end": "2024-05-12 02:00:34 +0000",
       "in_pyramid_flower_forest": "2024-05-09 03:37:42 +0000"
     },
     "done": false
@@ -54702,7 +54708,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_spider_dungeon": "2024-05-09 05:05:26 +0000"
+      "in_better_spider_dungeon": "2024-05-09 05:05:26 +0000",
+      "in_better_monster_room": "2024-05-11 22:00:17 +0000"
     },
     "done": false
   },
@@ -54720,9 +54727,10 @@
   },
   "blue_skies:thinking_with_portals": {
     "criteria": {
-      "enter_everdawn": "2024-05-10 08:30:43 +0000"
+      "enter_everdawn": "2024-05-10 08:30:43 +0000",
+      "enter_everbright": "2024-05-11 22:34:02 +0000"
     },
-    "done": false
+    "done": true
   },
   "blue_skies:everdawn/enter": {
     "criteria": {
@@ -54733,6 +54741,245 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-05-10 19:35:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2024-05-11 20:26:03 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "kill_lich": "2024-05-11 20:26:03 +0000"
+    },
+    "done": false
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2024-05-11 20:26:03 +0000"
+    },
+    "done": false
+  },
+  "shieldexp:get_diamond_shield": {
+    "criteria": {
+      "diamond_shield": "2024-05-11 20:43:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2024-05-11 21:44:03 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/murmur": {
+    "criteria": {
+      "killed_by": "2024-05-11 21:59:41 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2024-05-11 22:00:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-05-11 22:30:30 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2024-05-11 22:30:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-05-11 22:30:30 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2024-05-11 22:34:02 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:magic_map": {
+    "criteria": {
+      "magic_map": "2024-05-12 00:25:04 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_shard_to_dust": {
+    "criteria": {
+      "has_item.betterend.ender_shard": "2024-05-12 00:44:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:crystal_mountains": "2024-05-12 01:19:56 +0000",
+      "betterend:dry_shrubland": "2024-05-12 01:02:11 +0000",
+      "betterend:shadow_forest": "2024-05-12 01:04:06 +0000",
+      "betterend:amber_land": "2024-05-12 01:02:06 +0000",
+      "betterend:sulphur_springs": "2024-05-12 00:46:40 +0000",
+      "betterend:neon_oasis": "2024-05-12 01:55:10 +0000",
+      "betterend:painted_mountains": "2024-05-12 01:51:37 +0000",
+      "betterend:foggy_mushroomland": "2024-05-12 00:45:14 +0000",
+      "betterend:ice_starfield": "2024-05-12 00:53:02 +0000",
+      "betterend:empty_smaragdant_cave": "2024-05-12 01:50:36 +0000",
+      "betterend:glowing_grasslands": "2024-05-12 01:18:16 +0000",
+      "betterend:lush_aurora_cave": "2024-05-12 01:50:41 +0000",
+      "betterend:megalake_grove": "2024-05-12 01:52:27 +0000",
+      "betterend:umbra_valley": "2024-05-12 01:20:19 +0000",
+      "betterend:chorus_forest": "2024-05-12 00:51:37 +0000",
+      "betterend:lantern_woods": "2024-05-12 01:24:42 +0000",
+      "betterend:umbrella_jungle": "2024-05-12 01:52:39 +0000",
+      "betterend:megalake": "2024-05-12 01:52:25 +0000",
+      "betterend:blossoming_spires": "2024-05-12 01:17:58 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2024-05-12 00:50:58 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2024-05-12 00:51:02 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/cosmic_cod": {
+    "criteria": {
+      "capsid": "2024-05-12 01:07:55 +0000"
+    },
+    "done": true
+  },
+  "quark:use_viaduct": {
+    "criteria": {
+      "use_viaduct": "2024-05-12 01:17:30 +0000"
+    },
+    "done": true
+  },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2024-05-12 01:18:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-05-12 01:25:07 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2024-05-12 01:31:39 +0000",
+      "got_leather": "2024-05-12 01:48:11 +0000",
+      "got_handle": "2024-05-12 01:33:29 +0000",
+      "got_tool": "2024-05-12 01:31:59 +0000",
+      "got_terminite": "2024-05-12 01:48:44 +0000",
+      "got_thallasium": "2024-05-12 01:31:38 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2024-05-12 01:35:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-05-12 01:50:35 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ancient_cities": {
+    "criteria": {
+      "in_ancient_city_end": "2024-05-12 01:56:10 +0000"
+    },
+    "done": false
+  },
+  "eldritch_end:recipes/building_blocks/etyr_ingot_from_smelting_raw_etyr": {
+    "criteria": {
+      "has_raw_etyr": "2024-05-12 02:06:49 +0000"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/etyr_ingot_from_blasting_raw_etyr": {
+    "criteria": {
+      "has_raw_etyr": "2024-05-12 02:06:49 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-05-12 02:07:23 +0000"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2024-05-12 02:26:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:hammer": {
+    "criteria": {
+      "got_diamond_hammer": "2024-05-12 02:34:39 +0000"
+    },
+    "done": true
+  },
+  "betterend:infusion": {
+    "criteria": {
+      "infusion_pedestal": "2024-05-12 02:37:23 +0000"
+    },
+    "done": true
+  },
+  "betterend:thallasium_anvil": {
+    "criteria": {
+      "got_thallasium_anvil": "2024-05-12 02:41:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:thallasium_tool": {
+    "criteria": {
+      "got_thallasium_pickaxe": "2024-05-12 02:50:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-05-12 02:50:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2024-05-12 02:50:34 +0000"
+    },
+    "done": false
+  },
+  "betterend:portal_on": {
+    "criteria": {
+      "turn_on": "2024-05-12 03:20:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:portal_travel": {
+    "criteria": {
+      "travel": "2024-05-12 03:21:41 +0000"
     },
     "done": true
   },

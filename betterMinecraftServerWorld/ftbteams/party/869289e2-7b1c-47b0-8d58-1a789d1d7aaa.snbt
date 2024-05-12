@@ -7,11 +7,12 @@
 		455ec3de-5d37-3432-b19a-10e4977e4ca0: "member"
 		c7e43bc3-9fec-311b-aeef-1ee875a96c76: "member"
 		bcc84594-2552-3d7b-be88-d6113afe416f: "member"
+		5cea872f-6d97-36de-99da-4c81c6eb6bb2: "member"
 	}
 	properties: {
 		"ftbteams:display_name": "Grupo Da Sarah"
 		"ftbteams:description": "Esse grupo é comandado pela Sarah, eu só sou líder pq eu configuro as coisas pra ela kkk"
-		"ftbteams:color": "#FF59CF"
+		"ftbteams:color": "#FF59CE"
 		"ftbteams:free_to_join": 1b
 		"ftbteams:max_msg_history_size": 1000
 	}
@@ -21,6 +22,7 @@
 		{ from: "704aa2ab-ad63-3f65-a717-3fa0a9a7c586", date: 1715121655968L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Ruanzaum\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1715121669987L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Ruanzaum\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1715132864941L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Joeio\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1715472860922L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Ryanns19\"}]}" }
 	]
 	extra: { }
 }

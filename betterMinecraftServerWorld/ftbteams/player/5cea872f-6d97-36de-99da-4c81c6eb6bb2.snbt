@@ -1,0 +1,18 @@
+{
+	id: "5cea872f-6d97-36de-99da-4c81c6eb6bb2"
+	type: "player"
+	player_name: "Ryanns19"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Ryanns19"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59F6"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "5cea872f-6d97-36de-99da-4c81c6eb6bb2", date: 1715454125627L, text: "{\"text\":\"eadwa\"}" }
+		{ from: "5cea872f-6d97-36de-99da-4c81c6eb6bb2", date: 1715454125830L, text: "{\"text\":\"\"}" }
+	]
+	extra: { }
+}
