@@ -7773,15 +7773,21 @@
     },
     "done": false
   },
-  "stoneworks:recipes/building_blocks/granite_plates_from_granite_stonecutting": {
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
     "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
+      "has_item.betterend.thallasium_raw": "2024-05-12 00:35:24 +0000"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_granite_wall_from_granite_stonecutting": {
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_smelting": {
     "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
+      "has_item.betterend.thallasium_raw": "2024-05-12 00:35:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_shard_to_dust": {
+    "criteria": {
+      "has_item.betterend.ender_shard": "2024-05-12 00:38:22 +0000"
     },
     "done": true
   },
@@ -7791,81 +7797,9 @@
     },
     "done": true
   },
-  "bclib:recipes/decorations/tag_shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2024-05-12 01:36:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_granite_brick_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/tables/crimson_table_slab": {
-    "criteria": {
-      "has_bamboo": "2024-05-12 01:34:16 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/end_stone_furnace": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/end_stone_brick_weathered_from_vine": {
     "criteria": {
       "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/end_stone_tile_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
     },
     "done": true
   },
@@ -7875,129 +7809,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_end_stone_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/end_stone_plates_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_slab": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/crimson_banister": {
-    "criteria": {
-      "has_item": "2024-05-12 01:34:16 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_pavers_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/granite_pillar_trim": {
-    "criteria": {
-      "has_granite_pillar_trim": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/end_stone_shingle_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_slab": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_end_stone_bricks_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/granite_corner_trim": {
-    "criteria": {
-      "has_granite_corner_trim": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/end_stone_pavers_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
     "criteria": {
       "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_tile_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_tiles_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/purpur_pedestal": {
-    "criteria": {
-      "has_purpur_pillar": "2024-05-12 01:29:03 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_bench": {
-    "criteria": {
-      "has_slab": "2024-05-12 01:34:16 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/end_stone_tile_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_granite_bricks_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2024-05-12 01:36:08 +0000"
     },
     "done": true
   },
@@ -8013,27 +7827,157 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/endstone_flower_pot": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-05-12 00:41:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-05-12 00:41:26 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:dry_shrubland": "2024-05-12 01:02:29 +0000",
+      "betterend:shadow_forest": "2024-05-12 01:04:10 +0000",
+      "betterend:amber_land": "2024-05-12 01:02:24 +0000",
+      "betterend:sulphur_springs": "2024-05-12 00:47:32 +0000",
+      "betterend:foggy_mushroomland": "2024-05-12 01:05:34 +0000",
+      "betterend:ice_starfield": "2024-05-12 00:53:10 +0000",
+      "betterend:glowing_grasslands": "2024-05-12 01:18:27 +0000",
+      "betterend:megalake_grove": "2024-05-12 00:45:22 +0000",
+      "betterend:chorus_forest": "2024-05-12 00:52:15 +0000",
+      "betterend:lantern_woods": "2024-05-12 01:24:46 +0000",
+      "betterend:umbrella_jungle": "2024-05-12 00:44:38 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2024-05-12 00:46:25 +0000"
+    },
+    "done": false
+  },
+  "alexsmobs:alexsmobs/cosmic_cod": {
+    "criteria": {
+      "capsid": "2024-05-12 00:47:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2024-05-12 00:48:26 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/ender_flu": {
+    "criteria": {
+      "all_effects": "2024-05-12 00:48:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_furnace": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tile_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_plates_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_shingle_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_pavers_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/end_stone_tile_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-05-12 00:50:37 +0000"
+    },
+    "done": true
+  },
   "stoneworks:recipes/building_blocks/polished_end_stone_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
     },
     "done": true
   },
-  "betterend:recipes/misc/ender_shard_to_dust": {
-    "criteria": {
-      "has_item.betterend.ender_shard": "2024-05-12 00:38:22 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_plate_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_furnace": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
     },
     "done": true
   },
@@ -8061,73 +8005,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_tile_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_tile_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "betterend:all_the_biomes": {
-    "criteria": {
-      "betterend:dry_shrubland": "2024-05-12 01:02:29 +0000",
-      "betterend:shadow_forest": "2024-05-12 01:04:10 +0000",
-      "betterend:amber_land": "2024-05-12 01:02:24 +0000",
-      "betterend:sulphur_springs": "2024-05-12 00:47:32 +0000",
-      "betterend:foggy_mushroomland": "2024-05-12 01:05:34 +0000",
-      "betterend:ice_starfield": "2024-05-12 00:53:10 +0000",
-      "betterend:glowing_grasslands": "2024-05-12 01:18:27 +0000",
-      "betterend:megalake_grove": "2024-05-12 00:45:22 +0000",
-      "betterend:chorus_forest": "2024-05-12 00:52:15 +0000",
-      "betterend:lantern_woods": "2024-05-12 01:24:46 +0000",
-      "betterend:umbrella_jungle": "2024-05-12 00:44:38 +0000"
-    },
-    "done": false
-  },
-  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2024-05-12 01:34:21 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_paver_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
     },
     "done": true
   },
@@ -8137,33 +8017,9 @@
     },
     "done": true
   },
-  "quark:use_viaduct": {
-    "criteria": {
-      "use_viaduct": "2024-05-12 01:16:42 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_shutter": {
-    "criteria": {
-      "has_slab": "2024-05-12 01:34:16 +0000"
     },
     "done": true
   },
@@ -8185,51 +8041,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/granite_brick_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_stairs": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_shingle_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_button": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/cosmic_cod": {
-    "criteria": {
-      "capsid": "2024-05-12 00:47:01 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2024-05-12 00:48:26 +0000"
     },
     "done": true
   },
@@ -8245,45 +8059,15 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_granite_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_pillar_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cracked_granite_bricks_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_granite_tiles_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
-    "criteria": {
-      "has_item.betterend.thallasium_raw": "2024-05-12 00:35:24 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_paver_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_plate_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
     },
     "done": true
   },
@@ -8299,117 +8083,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_brick_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/ender_flu": {
-    "criteria": {
-      "all_effects": "2024-05-12 00:48:31 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_granite_brick_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_tiles_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
     },
     "done": true
   },
-  "repurposed_structures:shipwrecks": {
-    "criteria": {
-      "in_shipwreck_end": "2024-05-12 00:46:25 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/granite_stairs": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_bricks_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/endstone_flower_pot": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/granite_wall": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_paver_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_plate_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2024-05-12 01:34:21 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_shingle_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
     },
     "done": true
   },
@@ -8437,36 +8119,6 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_granite_brick_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_tile_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_brick_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_end_stone_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
@@ -8479,135 +8131,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_paver_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-05-12 00:50:37 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_paver_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_wall": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_shingles_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:village": {
-    "criteria": {
-      "end_village": "2024-05-12 01:18:27 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/tables/crimson_table": {
-    "criteria": {
-      "has_the_recipe": "2024-05-12 01:34:16 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_shingle_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_plate_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_bricks": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_paver_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-05-12 00:41:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2024-05-12 01:25:04 +0000"
-    },
-    "done": true
-  },
-  "another_furniture:recipes/crimson_flower_box": {
-    "criteria": {
-      "has_slab": "2024-05-12 01:34:16 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/granite_pillar_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2024-05-12 01:34:21 +0000"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/chiseled_granite_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2024-05-12 01:30:27 +0000"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
-    "criteria": {
-      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
     },
     "done": true
   },
@@ -8629,9 +8155,483 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/thallasium_ingot_furnace_raw_smelting": {
+  "betterend:recipes/misc/sulphuric_rock_slab": {
     "criteria": {
-      "has_item.betterend.thallasium_raw": "2024-05-12 00:35:24 +0000"
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_furnace": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_button": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sulphuric_rock": "2024-05-12 00:56:34 +0000"
+    },
+    "done": true
+  },
+  "quark:use_viaduct": {
+    "criteria": {
+      "use_viaduct": "2024-05-12 01:16:42 +0000"
+    },
+    "done": true
+  },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2024-05-12 01:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-05-12 01:25:04 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_pillar": "2024-05-12 01:29:03 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_plates_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_pavers_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_pillar_trim": {
+    "criteria": {
+      "has_granite_pillar_trim": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_corner_trim": {
+    "criteria": {
+      "has_granite_corner_trim": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_tile_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_tiles_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_tile_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_paver_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_brick_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_shingle_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_granite_tiles_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_plate_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_granite_brick_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_bricks_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_plate_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_shingle_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_tile_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_brick_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_paver_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_shingles_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_shingle_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_plate_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_paver_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/granite_pillar_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-05-12 01:30:27 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/crimson_banister": {
+    "criteria": {
+      "has_item": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_bench": {
+    "criteria": {
+      "has_slab": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_shutter": {
+    "criteria": {
+      "has_slab": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table": {
+    "criteria": {
+      "has_the_recipe": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_flower_box": {
+    "criteria": {
+      "has_slab": "2024-05-12 01:34:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-05-12 01:34:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-05-12 01:34:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-05-12 01:34:21 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-05-12 01:36:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-05-12 01:36:08 +0000"
     },
     "done": true
   },
