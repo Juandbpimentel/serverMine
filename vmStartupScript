@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Iniciando o Servidor"
+cd /home/juandbpimentel/github/serverMine
+sudo screen -d -m -S mcs ./start.sh
